@@ -33,7 +33,7 @@
   "scripts": {
     "build": "tsc",
     "bump": "npm version patch",
-    "package": "npm run lint && npm run build && npm run bump && npm publish",
+    "package": "npm run lint && npm run build && npm publish",
     "lint": "eslint --ext .ts src"
   },
   "author": "Lestan D'Souza",
