@@ -1,8 +1,11 @@
 # Web Vector Storage
 
-Web Vector Storage is a lightweight and efficient vector database that stores document vectors in the browser's IndexedDB. This package allows you to perform semantic similarity searches on text documents using vector embeddings. Semantic search refers to the ability to understand the meaning and context of text documents and queries, enabling more accurate and relevant search results. 
+Web Vector Storage (WVS) is a lightweight and efficient vector database that stores document vectors in the browser's IndexedDB. This package allows you to perform semantic similarity searches on text documents using vector embeddings. Semantic search refers to the ability to understand the meaning and context of text documents and queries, enabling more accurate and relevant search results. 
 
 Web Vector Storage supports a variety of embedding providers and models to generate embeddings to convert text documents into vectors and provides an interface for searching similar documents based on cosine similarity.
+
+Vector stores are a core component in building Retrieval Augmentation Generation (RAG) Generative AI applications using Large Language Models (LLMs).  When running a LLM on the edge (i.e. in-browser), having a web browser native vector store can be useful.  This enables local storage
+of user's data as well as leveraging the local compute capacity within the user's device thus alleviating overhead and cost.  
 
 ## Features
 
